@@ -1,7 +1,5 @@
 # MEL-Targeted-Variant-Analysis
 
-# MEL-Targeted-Variant-Analysis
-
 > A reproducible sequencing pipeline for germline and somatic variant analysis in melanoma using targeted gene panels
 
 ---
@@ -89,15 +87,15 @@ MEL-Targeted-Variant-Analysis/
 
 ---
 
-**## Sequencing Panels
+## __Sequencing Panels__
 
-### Germline**
+### __Germline__
 
 | Panel | Description |
 |---------|-------------|
 | Hereditary Cancer Panel | 58 genes |
 
-**### Somatic**
+### __Somatic__
 
 | Panel | Description |
 |---------|-------------|
