@@ -43,7 +43,7 @@ Duplicate Marking
    │
    ▼
 Base Quality Score Recalibration (BQSR)
-   │
+          │
    ├───────────────┐
    ▼               ▼
 Germline         Somatic
@@ -68,18 +68,16 @@ MEL-Targeted-Variant-Analysis/
 │
 ├── Data/
 │   ├── Reference/
-│   ├── Targets/
+│   └── Targets/
 │
 ├── Results/
-│   ├── QC/
-│   ├── BAM/
-│   ├── Germline/
-│   ├── Somatic/
-│   └── Annotation/
+│   ├── Germline_variant_calling/
+│   ├── Somatic_variant_calling/
+│   └── Case reports/
 │
 ├── workflow_scripts/
 │   ├── 01_GERMLINE_variant_calling_pipeline.sh
-│   ├── 02_SOMATIC_variant_calling_pipeline_tumour_vs_normal.sh
+│   └── 02_SOMATIC_variant_calling_pipeline_tumour_vs_normal.sh
 │
 ├── README.md
 └── LICENSE
