@@ -58,7 +58,7 @@ HaplotypeCaller  Mutect2
           ▼
  Final Annotated Variants
 
-
+```
 ---
 
 ## Project Structure
@@ -85,23 +85,20 @@ MEL-Targeted-Variant-Analysis/
 └── LICENSE
 ```
 
----
+## Sequencing Panels
 
-## __Sequencing Panels__
-
-### __Germline__
+### Germline
 
 | Panel | Description |
 |---------|-------------|
 | Hereditary Cancer Panel | 58 genes |
 
-### __Somatic__
+### Somatic
 
 | Panel | Description |
 |---------|-------------|
 | Ion AmpliSeq Melanoma Panel | Targeted melanoma-associated genes |
 
----
 
 ## Software
 
@@ -116,15 +113,6 @@ MEL-Targeted-Variant-Analysis/
 | Mutect2 | Somatic variant detection |
 | HaplotypeCaller | Germline variant detection |
 | Funcotator | Variant annotation |
-
----
-
-## Reference Files
-
-The following reference resources are required but **are not included** in this repository due to their large size.
-
-- GRCh38 Reference Genome
-- dbSNP
 
 ---
 
